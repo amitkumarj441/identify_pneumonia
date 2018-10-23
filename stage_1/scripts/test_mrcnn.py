@@ -23,7 +23,7 @@ from mrcnn import utils
 from mrcnn import visualize
 from mrcnn.model import log
 
-image_fps_val = pd.read_csv('fps_val.csv').image_fps_val.tolist()
+image_fps_val = pd.read_csv('image_fps_val.csv').image_fps_val.tolist()
 
 # Phase 1 config
 inference_config = InferenceConfig()
