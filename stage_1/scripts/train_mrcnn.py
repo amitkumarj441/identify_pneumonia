@@ -49,9 +49,9 @@ print('train_size=', len(image_fps_train))
 print('validation_size=', (len(image_fps_val)))
 
 df = pd.DataFrame(image_fps_train, columns=['image_fps_train'])
-df.to_csv('fps_train.csv', index=False)
+df.to_csv('image_fps_train.csv', index=False)
 df = pd.DataFrame(image_fps_val, columns=['image_fps_val'])
-df.to_csv('fps_val.csv', index=False)
+df.to_csv('image_fps_val.csv', index=False)
 
 # training dataset
 dataset_train = PneumoniaDataset(image_fps_train, image_annotations, ORIG_SIZE, ORIG_SIZE)
