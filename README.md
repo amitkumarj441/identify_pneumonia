@@ -1,2 +1,2 @@
-# RSNA
-Developing an algorithm that automatically detects potential pneumonia cases
+# Identification of Pneumonia causes in chest X-ray images
+
